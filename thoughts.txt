@@ -2,15 +2,18 @@ Here I brainstorm while looking into the teacher's material to see if there's an
 Im a bit scared that if we dont the project will be too short, since i think there's a quick and simple way to answer the questions,
 but idk if we're supposed to do only that. 
 
+
 2. How are the different variables (gender, age, geography, etc.) distributed in the dataset?
     * I think here it is straightforward, we have to show the distribution for every variable (
         histogram or bar plot depending on the type of var, quant or qual) and maybe try to show the joint distribution of a few
+            - we need to find a better way to visualise Tenure because im not sure about what ive tried
             - look at slide 12/21 of visualising leture! the density plot is interesting!
         But we have tp be careful and think about wether these joint distributions are in reality the answer to question three
         What do you think?
             Ideas for joint distribution:
-                - 
-                - 
+                - Balance and credit score
+                - Credit score and age
+                - Estimated salary and credit score, balance, age...
 
 3. How do the different variables interact with each other?
     a. What are the age, salary, balance, number of products, etc. distributions for each gender group?
@@ -33,3 +36,4 @@ but idk if we're supposed to do only that.
     HOWEVER! he doesnt explain in his lectures how to regress (package, technique, not one mention)
 
 5. (Optional) Build a simple machine learning classification model that predicts churn based on a customer's features.
+
