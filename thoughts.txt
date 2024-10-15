@@ -1,0 +1,26 @@
+2. How are the different variables (gender, age, geography, etc.) distributed in the dataset?
+    * I think here it is straightforward, we have to show the distribution for every variable (
+        histogram or bar plot depending on the type of var, quant or qual) and maybe try to show the joint distribution of a few
+        But we have tp be careful and think about wether these joint distributions are in reality the answer to question three
+        What do you think?
+            Ideas for joint distribution:
+                - 
+                - 
+
+3. How do the different variables interact with each other?
+    a. What are the age, salary, balance, number of products, etc. distributions for each gender group?
+    b. How are different indicators distributed by country?
+    c. etc.
+        Ideas for etc:
+            -
+            -
+
+4. How do the different variables affect churn? What are the causes that can lead to increased (or reduced) customer churn?
+    Is this causality? Does this mean we have to do regressions?
+
+5. (Optional) Build a simple machine learning classification model that predicts churn based on a customer's features.
+
+
+We should also look in the teacher's material to see if there's anything we havent used and thaat it could be interesting. 
+Im a bit scared that if we dont the project will be too short, since i think there's a quick and simple way to answer the questions,
+but idk if we're supposed to do only that. 
