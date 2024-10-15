@@ -1,6 +1,11 @@
+Here I brainstorm while looking into the teacher's material to see if there's anything we havent used and that it could be interesting. 
+Im a bit scared that if we dont the project will be too short, since i think there's a quick and simple way to answer the questions,
+but idk if we're supposed to do only that. 
+
 2. How are the different variables (gender, age, geography, etc.) distributed in the dataset?
     * I think here it is straightforward, we have to show the distribution for every variable (
         histogram or bar plot depending on the type of var, quant or qual) and maybe try to show the joint distribution of a few
+            - look at slide 12/21 of visualising leture! the density plot is interesting!
         But we have tp be careful and think about wether these joint distributions are in reality the answer to question three
         What do you think?
             Ideas for joint distribution:
@@ -18,9 +23,13 @@
 4. How do the different variables affect churn? What are the causes that can lead to increased (or reduced) customer churn?
     Is this causality? Does this mean we have to do regressions?
 
+    He does mention matrix operations and how to generate randomised arrays (noise, etc?)
+    He also describes how numpy does statistics (mean, std, var.. ). Maybe we use it for Q1?
+    We can create new columns/features (ex: dummies if a certain var is greater than a certain value)
+    or just dummy-ing a categorical variable to run a regression!
+    We can group by a certain category and and calculate the min, median, and max for each group
+    He shows how to do 'melting' and 'pivoting' => I really think he wants us to do regressions
+    crosstab() function: co-occurrence counts
+    HOWEVER! he doesnt explain in his lectures how to regress (package, technique, not one mention)
+
 5. (Optional) Build a simple machine learning classification model that predicts churn based on a customer's features.
-
-
-We should also look in the teacher's material to see if there's anything we havent used and thaat it could be interesting. 
-Im a bit scared that if we dont the project will be too short, since i think there's a quick and simple way to answer the questions,
-but idk if we're supposed to do only that. 
