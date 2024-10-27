@@ -38,3 +38,8 @@ INTERACTION OF VARIABLES
         - Number of products
         - Age distribution
         => As subplots/smaller graphs to minimize space?
+
+
+MACHINE LEARNING ALGORITHM
+    - Both confusion matrixes
+    - build a table comparing the two results: [Metric used: accuracy, Metric used: recall] as columns and [accuracy, precision, recall] as rows
